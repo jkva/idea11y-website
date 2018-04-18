@@ -351,7 +351,8 @@ button, .button, .past-meetups > a,
   border-color: #C3F3E7; }
 
 .past-meetups::after {
-  content: linear-gradient(rgba(255, 255, 255, 0), white 50%);
+  content: '';
+  background: linear-gradient(rgba(255, 255, 255, 0), white 50%);
   position: absolute;
   bottom: 0em;
   left: 0;
